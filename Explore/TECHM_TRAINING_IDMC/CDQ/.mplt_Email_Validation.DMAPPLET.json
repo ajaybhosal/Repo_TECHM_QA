@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "21nbtC89R8wkoBz2rSX7ul",
+    "name" : "mplt_Email_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000026"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the email format. It does not check if the email is an activated address. Returns Valid or Invalid.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.223Z",
+  "objectRefs" : [ {
+    "id" : "kLNKEXdBJOFcmT2FSR4CoK",
+    "name" : "c_Validation_Domain",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kLNKEXdBJOFcmT2FSR4CoK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the domain of an email.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

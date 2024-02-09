@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "jcPzMkVazuAiJv22RcfUMn",
+    "name" : "c_av6_result_quality_desc",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jcPzMkVazuAiJv22RcfUMn"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns descriptions for Result Quality.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.385Z",
+  "objectRefs" : [ {
+    "id" : "gQ2RBy55TeAlu3SQOl4Ti8",
+    "name" : "dq_av6_result_quality_descriptions",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gQ2RBy55TeAlu3SQOl4Ti8"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The reference table has a list of the result quality codes returned by the AV6 verifier with its description.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5bNbBBBMsbWkoVjEoKhlm8",
+    "name" : "rs_join_two_strings",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5bNbBBBMsbWkoVjEoKhlm8"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Concatenates two strings into a single string with no join character.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.223Z",
+  "objectRefs" : [ ]
+}

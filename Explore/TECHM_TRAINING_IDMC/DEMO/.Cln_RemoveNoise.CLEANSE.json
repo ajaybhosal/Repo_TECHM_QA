@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "41agf5qqtu3bkYTW4EVKyZ",
+    "name" : "Cln_RemoveNoise",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "41agf5qqtu3bkYTW4EVKyZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove spaces,.*^",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.199Z",
+  "objectRefs" : [ ]
+}

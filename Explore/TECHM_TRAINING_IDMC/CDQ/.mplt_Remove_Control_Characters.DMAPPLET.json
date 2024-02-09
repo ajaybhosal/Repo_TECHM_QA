@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "jlUzPIsvdW0gjTbklhoRa2",
+    "name" : "mplt_Remove_Control_Characters",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000011"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Identifies and removes non-printable characters in an input field.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.250Z",
+  "objectRefs" : [ {
+    "id" : "adMbfjEhtMOjZggX5Way8N",
+    "name" : "c_merge_remaining_text",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "adMbfjEhtMOjZggX5Way8N"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Cleanse merging multi fields to one output field",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "8nGAXFAfRuSi52PsRm9CmU",
+    "name" : "p_control_characters",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8nGAXFAfRuSi52PsRm9CmU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identify and parse control characters from input string",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

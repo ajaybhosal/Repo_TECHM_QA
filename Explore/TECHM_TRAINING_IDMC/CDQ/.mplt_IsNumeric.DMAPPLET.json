@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "1HAWSl3DrKKe1VZ71XCXUA",
+    "name" : "mplt_IsNumeric",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks if input data is numeric.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.239Z",
+  "objectRefs" : [ {
+    "id" : "0bdmlE75qg4da8AQ0bjl6v",
+    "name" : "rs_IsNumeric",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0bdmlE75qg4da8AQ0bjl6v"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Checks if the input value is Numeric or Non-Numeric",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

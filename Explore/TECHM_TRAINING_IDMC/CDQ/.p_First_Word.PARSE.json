@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kpYksgtgUwYejDrjLkpoiZ",
+    "name" : "p_First_Word",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kpYksgtgUwYejDrjLkpoiZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the first word of a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.382Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "efWjbfN4WoTdCApRg2FmUL",
+    "name" : "c_Label_Default_Text_Values",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "efWjbfN4WoTdCApRg2FmUL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identifies default or sample alphabetic values such as XXX, NA, Default.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.424Z",
+  "objectRefs" : [ {
+    "id" : "4EKhmMJnHBIcERKJJY2P2t",
+    "name" : "string_default_values_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4EKhmMJnHBIcERKJJY2P2t"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of sample or default values.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

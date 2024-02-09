@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "hH7Kpkn6S44fgZPVrSNqSr",
+    "name" : "c_Replace_NonAlpha_with_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hH7Kpkn6S44fgZPVrSNqSr"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces a number or other non-alphabetic character with a space, and reduces multiple spaces to a single space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.252Z",
+  "objectRefs" : [ ]
+}

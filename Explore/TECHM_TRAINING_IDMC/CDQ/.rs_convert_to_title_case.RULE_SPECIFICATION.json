@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3kC9aLCciCpfzlJ1TMx8UC",
+    "name" : "rs_convert_to_title_case",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3kC9aLCciCpfzlJ1TMx8UC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts input strings to title case.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.269Z",
+  "objectRefs" : [ ]
+}

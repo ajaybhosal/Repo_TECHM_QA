@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "dQVg4iq9vCqkCSAeh4EzYu",
+    "name" : "mplt_Days_Between_Dates",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000D"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Calculates the difference between the two dates in days. The result is the difference between the end date and the start date. Input datatype should be set as String.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.218Z",
+  "objectRefs" : [ ]
+}

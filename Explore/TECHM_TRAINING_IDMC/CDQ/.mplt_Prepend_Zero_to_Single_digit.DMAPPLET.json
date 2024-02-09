@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "9eoYzTY8XZddnZ4UiO1uiq",
+    "name" : "mplt_Prepend_Zero_to_Single_digit",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000001U"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Prepends a zero to a single digit. If the input is not a single digit, returns the input data.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.389Z",
+  "objectRefs" : [ {
+    "id" : "2azZk5eGjQueBALz0MwuCK",
+    "name" : "rs_prepend_Zero_to_Single_Digit",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2azZk5eGjQueBALz0MwuCK"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Prepends zero to a single digit. If the input is not a single digit, returns the input data.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

@@ -1,0 +1,125 @@
+{
+  "objectInfo" : {
+    "id" : "0x1kgnmqNfdbCISEUgnKMV",
+    "name" : "Techm_Cutomer_Profile",
+    "type" : "PROFILE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "e3113cf4-1058-472d-81bc-5e23da3c92a7"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "json",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.321Z",
+  "objectRefs" : [ {
+    "id" : "3dXQq0V4Lcgii3jGOrzcS0",
+    "name" : "Rsp_Techm_Valid_Country",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3dXQq0V4Lcgii3jGOrzcS0"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validating Country column",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "6XwXlCoJ56MkyHR1FyLIMO",
+    "name" : "DEV-WIN-AGENT",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8vR5WYIGyKblFkMuGjLKmW",
+    "name" : "DEV_FF_TGT",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA0B000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "jWTrHr9uLaEkMHblCEkjyR",
+    "name" : "Rsp_ValidateContactRule",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jWTrHr9uLaEkMHblCEkjyR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validate Contact Details including Name,Zip and Phone",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "88dLcvc2aRhcjF7fQhpdkQ",
+    "name" : "Rsp_Techm_CustTierValidationRule",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "88dLcvc2aRhcjF7fQhpdkQ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validate the data in the CustomerTier column",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7J2wTH18caDhT768VFQ6o8",
+    "name" : "rs_join_two_inputs_with_space",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7J2wTH18caDhT768VFQ6o8"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merges two input strings into a single output, with a character space as the join character.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.246Z",
+  "objectRefs" : [ ]
+}

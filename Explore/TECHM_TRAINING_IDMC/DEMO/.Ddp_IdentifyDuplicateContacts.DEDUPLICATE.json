@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0qTB9zeYNbhlgfAo0kNgSX",
+    "name" : "Ddp_IdentifyDuplicateContacts",
+    "type" : "DEDUPLICATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0qTB9zeYNbhlgfAo0kNgSX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identify duplicate company, address and contact",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.391Z",
+  "objectRefs" : [ ]
+}

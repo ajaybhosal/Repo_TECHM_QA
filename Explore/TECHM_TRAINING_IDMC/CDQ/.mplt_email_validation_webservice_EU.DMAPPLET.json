@@ -1,0 +1,75 @@
+{
+  "objectInfo" : {
+    "id" : "0swVs3d6IF0lisaf3vuuCa",
+    "name" : "mplt_email_validation_webservice_EU",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000002E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Calls the email web service to process emails.\nNOTE: Users must update the expression asset with their user id and password or license key.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.265Z",
+  "objectRefs" : [ {
+    "id" : "51zPQjfxLzKgjP331zqm6j",
+    "name" : "bs_email_EU",
+    "type" : "BSERVICE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA27000000000004"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      }, {
+        "name" : "010TYA2800000000000Q",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetStatusCodesForMethod"
+      }, {
+        "name" : "010TYA2800000000000R",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetStatusCodes"
+      }, {
+        "name" : "010TYA2800000000000S",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetServiceInfo"
+      }, {
+        "name" : "010TYA2800000000000T",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetRemainingHits"
+      }, {
+        "name" : "010TYA2800000000000M",
+        "value" : "51zPQjfxLzKgjP331zqm6j@VerifyEmail"
+      }, {
+        "name" : "010TYA2800000000000N",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetDomainInfo"
+      }, {
+        "name" : "010TYA2800000000000O",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetRiskProfiles"
+      }, {
+        "name" : "010TYA2800000000000P",
+        "value" : "51zPQjfxLzKgjP331zqm6j@GetReasonCodes"
+      } ],
+      "additionalInfo" : {
+        "description" : "Uses EU based endpoint to access email verification algorithm which identifies valid and non-valid email addresses.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7oLUpHGRsKbeekG1YW1TwU",
+    "name" : "c_Lowercase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7oLUpHGRsKbeekG1YW1TwU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts the input text to lowercase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.425Z",
+  "objectRefs" : [ ]
+}

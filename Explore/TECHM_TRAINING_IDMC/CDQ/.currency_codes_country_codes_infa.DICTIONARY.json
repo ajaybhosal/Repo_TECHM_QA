@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7UhTJf6y7Wzgi89iY5Kcsg",
+    "name" : "currency_codes_country_codes_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7UhTJf6y7Wzgi89iY5Kcsg"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of currency and country codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.256Z",
+  "objectRefs" : [ ]
+}

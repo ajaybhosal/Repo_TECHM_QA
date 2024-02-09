@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "iu4WY0LXBO3lOGUOIY1osx",
+    "name" : "Mplt_Techm_RemoveNoisefromNumericField",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000Y"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.201Z",
+  "objectRefs" : [ {
+    "id" : "3wAV4PsplXtdbFXDYzU3yS",
+    "name" : "Cln_RemoveNonNumeric",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3wAV4PsplXtdbFXDYzU3yS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove noise from a labeled field",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "6j03j51NduHcKDX1VgLPaz",
+    "name" : "Lbl_MaskNonNumericChars",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6j03j51NduHcKDX1VgLPaz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "MAsk non numeric characters",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  } ]
+}

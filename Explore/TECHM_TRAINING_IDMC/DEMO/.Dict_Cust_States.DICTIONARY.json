@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3VOit5z4X6Uk3jNR9CB36Z",
+    "name" : "Dict_Cust_States",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3VOit5z4X6Uk3jNR9CB36Z"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "json",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.375Z",
+  "objectRefs" : [ ]
+}

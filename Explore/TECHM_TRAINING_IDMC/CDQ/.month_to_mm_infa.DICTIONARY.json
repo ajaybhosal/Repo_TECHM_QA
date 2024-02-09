@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "lKEI1uogPKGbjuDLWetJM6",
+    "name" : "month_to_mm_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lKEI1uogPKGbjuDLWetJM6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the integer value of the corresponding month of the year.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.325Z",
+  "objectRefs" : [ ]
+}

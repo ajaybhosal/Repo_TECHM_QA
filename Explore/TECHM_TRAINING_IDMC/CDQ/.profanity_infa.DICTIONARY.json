@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5X9OfoQYpfplY3EHFg7C8p",
+    "name" : "profanity_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5X9OfoQYpfplY3EHFg7C8p"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of profane words.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.390Z",
+  "objectRefs" : [ ]
+}

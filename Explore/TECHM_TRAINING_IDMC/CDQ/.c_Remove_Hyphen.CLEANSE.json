@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4Lmxe04TR5Jilqt4uSk2iN",
+    "name" : "c_Remove_Hyphen",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4Lmxe04TR5Jilqt4uSk2iN"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all hyphens from an input string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.210Z",
+  "objectRefs" : [ ]
+}

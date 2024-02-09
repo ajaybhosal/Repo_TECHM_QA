@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "cFmyYRDMJuugyRWfWHiN6V",
+    "name" : "job_position_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "cFmyYRDMJuugyRWfWHiN6V"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the general list of job positions.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.207Z",
+  "objectRefs" : [ ]
+}

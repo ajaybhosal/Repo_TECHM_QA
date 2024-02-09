@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "5N83COMOeb8jNksazTh8Oz",
+    "name" : "Prs_ParseContactElements",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5N83COMOeb8jNksazTh8Oz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse Name Prefix, FirstName and Last Name",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.190Z",
+  "objectRefs" : [ {
+    "id" : "99s3Q2H9SB0feP9YJXYRgo",
+    "name" : "Dict_ValidFirstNames",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "99s3Q2H9SB0feP9YJXYRgo"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "ikA2QbwQPoje9XScQXaE27",
+    "name" : "Dict_ValidNamePrefix",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ikA2QbwQPoje9XScQXaE27"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  } ]
+}

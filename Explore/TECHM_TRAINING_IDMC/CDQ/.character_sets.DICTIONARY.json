@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5yOCBfYrsd1em3GgpC3iW6",
+    "name" : "character_sets",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5yOCBfYrsd1em3GgpC3iW6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a set of characters (A-Z , a-z , 0-9).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.208Z",
+  "objectRefs" : [ ]
+}

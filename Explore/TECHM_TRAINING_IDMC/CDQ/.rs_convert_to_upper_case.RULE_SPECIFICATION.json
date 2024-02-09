@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2iJFJsUwWG7gvljwbudNqR",
+    "name" : "rs_convert_to_upper_case",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2iJFJsUwWG7gvljwbudNqR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts input strings to uppercase.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.276Z",
+  "objectRefs" : [ ]
+}

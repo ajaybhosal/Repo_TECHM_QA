@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2Z28rw2hxkOgKySrP0QREZ",
+    "name" : "SIC_to_NAICS_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2Z28rw2hxkOgKySrP0QREZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains SIC to NAICS codes and description. SIC is designated a valid column.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.323Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "iskd1xrhcalctOPM5Vn8QR",
+    "name" : "Cln_DerivePrefixfromFirstName",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iskd1xrhcalctOPM5Vn8QR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Derive the name prefix from the first name based on a dictionary",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.422Z",
+  "objectRefs" : [ {
+    "id" : "bTS89x9DU6okTxhoOcfH8h",
+    "name" : "Techm_Prefix_Firstname",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bTS89x9DU6okTxhoOcfH8h"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "NamePrefix and Firstname",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  } ]
+}

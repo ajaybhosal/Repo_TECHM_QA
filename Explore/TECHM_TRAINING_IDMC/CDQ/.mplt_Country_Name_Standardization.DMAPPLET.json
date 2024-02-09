@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "8TNEl3OCCUyicJjt2kC2gn",
+    "name" : "mplt_Country_Name_Standardization",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000020"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Reads a country name as input and returns the full ISO country name, the ISO three-letter country code, and the ISO two-letter country code.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.386Z",
+  "objectRefs" : [ {
+    "id" : "2wy7NwKWoYkkAOHUHMiRyl",
+    "name" : "c_Country_ISO2Char",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2wy7NwKWoYkkAOHUHMiRyl"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes country names to their respective two-letter ISO country codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "47x1eQvOSs5gGTIlIbKyq1",
+    "name" : "c_Country_ISO3Char",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "47x1eQvOSs5gGTIlIbKyq1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardizes country names to their respective three-letter ISO country codes.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "5naNO3ItokmkYWKqPhBWcZ",
+    "name" : "c_ISO_Full_Country_Name",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5naNO3ItokmkYWKqPhBWcZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the ISO country name for any country identifier in an input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

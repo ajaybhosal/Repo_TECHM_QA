@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0AF2jsas8QojwK9vbJn084",
+    "name" : "p_Email_from_Text",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0AF2jsas8QojwK9vbJn084"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an email address from a text string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.236Z",
+  "objectRefs" : [ ]
+}

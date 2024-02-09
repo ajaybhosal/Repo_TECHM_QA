@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "hNe88wHM0iBi9UIRumDOUi",
+    "name" : "dq_av6_address_type_desc",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hNe88wHM0iBi9UIRumDOUi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The reference table has the list of result quality codes with its description.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.221Z",
+  "objectRefs" : [ ]
+}

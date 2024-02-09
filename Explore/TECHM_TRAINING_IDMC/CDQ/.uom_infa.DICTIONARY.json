@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4rzAuEvA1qTgzooSH2WS8b",
+    "name" : "uom_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4rzAuEvA1qTgzooSH2WS8b"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the abbreviations of the Unit of Measures (UOM).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.380Z",
+  "objectRefs" : [ ]
+}

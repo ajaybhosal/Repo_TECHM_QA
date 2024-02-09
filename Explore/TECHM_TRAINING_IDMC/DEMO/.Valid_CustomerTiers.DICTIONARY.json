@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "06ggOt9maQNj3Z2bnRGsoA",
+    "name" : "Valid_CustomerTiers",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "06ggOt9maQNj3Z2bnRGsoA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Valid Customer Tiers",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.388Z",
+  "objectRefs" : [ ]
+}

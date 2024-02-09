@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "gmWTMe0LaKsgZbF2SNT1kW",
+    "name" : "mplt_String_Completeness",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000001Z"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks if an input field is empty, null, or contains sample or default values.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.424Z",
+  "objectRefs" : [ {
+    "id" : "efWjbfN4WoTdCApRg2FmUL",
+    "name" : "c_Label_Default_Text_Values",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "efWjbfN4WoTdCApRg2FmUL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identifies default or sample alphabetic values such as XXX, NA, Default.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "fe4zD4pw6wXlc7mUdBiNqk",
+    "name" : "mplt_Completeness",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000O"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks if the input field is empty or null.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

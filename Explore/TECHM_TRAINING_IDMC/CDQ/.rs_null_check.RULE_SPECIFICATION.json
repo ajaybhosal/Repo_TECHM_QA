@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1MfC0HxMsA6h9tjtaFRnw5",
+    "name" : "rs_null_check",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1MfC0HxMsA6h9tjtaFRnw5"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identifies null values in an input field. Returns 1 for a null value, and returns 0 if the input is not null.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.390Z",
+  "objectRefs" : [ ]
+}

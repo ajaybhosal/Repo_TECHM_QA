@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1FMgNW7fglhgTufIdlBmOp",
+    "name" : "dq_av_match_code_descriptions_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1FMgNW7fglhgTufIdlBmOp"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains alphanumeric status values that indicate the outcome of the verification operation for an address. Each status value has a corresponding text description.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.243Z",
+  "objectRefs" : [ ]
+}

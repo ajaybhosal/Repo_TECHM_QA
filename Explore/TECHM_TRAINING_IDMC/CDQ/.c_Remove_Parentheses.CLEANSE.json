@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kdywwFz4tMWge9XAZcXuaN",
+    "name" : "c_Remove_Parentheses",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kdywwFz4tMWge9XAZcXuaN"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of left and right parentheses from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.325Z",
+  "objectRefs" : [ ]
+}

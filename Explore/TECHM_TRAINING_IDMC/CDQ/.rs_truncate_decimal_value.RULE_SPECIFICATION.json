@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "axRG0xpIEd7lNbmG8JDsgX",
+    "name" : "rs_truncate_decimal_value",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "axRG0xpIEd7lNbmG8JDsgX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Truncates a float data value to two decimal places. Does not perform rounding.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.379Z",
+  "objectRefs" : [ ]
+}

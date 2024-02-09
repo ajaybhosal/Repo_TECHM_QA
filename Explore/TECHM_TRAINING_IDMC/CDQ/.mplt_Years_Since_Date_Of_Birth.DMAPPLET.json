@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "9B22T7pTlQzl01fG5SVsqH",
+    "name" : "mplt_Years_Since_Date_Of_Birth",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000001J"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Returns the number of years since a given date.\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.250Z",
+  "objectRefs" : [ {
+    "id" : "j2FV5s9hDKxisIsW29Wwst",
+    "name" : "c_Replace_Back_Slash_with_Fwd_Slash",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "j2FV5s9hDKxisIsW29Wwst"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replace forward-slash with backward-slash.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5a1nFjgHSC4lMgc65wnFIU",
+    "name" : "Process1",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "XAeN7Y3AxtPk7HN-gt-4486676-2024-02-01T03:40:53.796Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-02-09T05:26:24.215Z",
+  "objectRefs" : [ ]
+}

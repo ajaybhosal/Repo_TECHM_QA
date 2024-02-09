@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0RoIDXHangNifWTccsZxcL",
+    "name" : "p_Number_At_Start_of_String",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0RoIDXHangNifWTccsZxcL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a number at the beginning of a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.383Z",
+  "objectRefs" : [ ]
+}

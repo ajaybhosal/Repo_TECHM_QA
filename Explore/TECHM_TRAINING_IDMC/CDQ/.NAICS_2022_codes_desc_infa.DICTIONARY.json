@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "j5erlsq9fQ3dbk1Qb40Py9",
+    "name" : "NAICS_2022_codes_desc_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "j5erlsq9fQ3dbk1Qb40Py9"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The reference table contains North American Industry Classification System (NAICS) codes and descriptions, version 2022.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.267Z",
+  "objectRefs" : [ ]
+}

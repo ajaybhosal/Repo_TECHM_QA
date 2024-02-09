@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0t7hQGzMlAJfXUxJP3UdKS",
+    "name" : "std_phone_formats_emea_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0t7hQGzMlAJfXUxJP3UdKS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the standard phone formats of the EMEA region.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.266Z",
+  "objectRefs" : [ ]
+}

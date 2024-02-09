@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6j03j51NduHcKDX1VgLPaz",
+    "name" : "Lbl_MaskNonNumericChars",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6j03j51NduHcKDX1VgLPaz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "MAsk non numeric characters",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.212Z",
+  "objectRefs" : [ ]
+}

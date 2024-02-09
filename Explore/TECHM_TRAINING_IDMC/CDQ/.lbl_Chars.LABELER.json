@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "bXzueX9mY44juEA9K2GHGG",
+    "name" : "lbl_Chars",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bXzueX9mY44juEA9K2GHGG"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns labels to alphabetic characters, spaces and non-alphabetic characters.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.281Z",
+  "objectRefs" : [ ]
+}

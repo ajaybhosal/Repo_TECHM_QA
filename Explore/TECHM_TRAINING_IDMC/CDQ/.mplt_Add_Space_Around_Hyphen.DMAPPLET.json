@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "314mAo1RRIceX4Znywx2Ce",
+    "name" : "mplt_Add_Space_Around_Hyphen",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000019"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Ensures that a single space precedes and follows a dash or a hyphen.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.268Z",
+  "objectRefs" : [ {
+    "id" : "0QdTveX7l2AlwHeQvFyxuX",
+    "name" : "c_Add_Space_Around_Hyphen",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0QdTveX7l2AlwHeQvFyxuX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Inserts a character space on either side of a hyphen, and reduces multiple spaces to a single space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

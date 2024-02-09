@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "jztQBcvCS6fiqGcWuSf3U4",
+    "name" : "NAICS_2022_description_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jztQBcvCS6fiqGcWuSf3U4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The reference table contains North American Industry Classification System (NAICS) codes and descriptions, NAICS description is designated as the valid column.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.270Z",
+  "objectRefs" : [ ]
+}

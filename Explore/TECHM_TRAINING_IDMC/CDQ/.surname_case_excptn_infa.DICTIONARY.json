@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4cUMpgIi8v4hZXsoHQsjUC",
+    "name" : "surname_case_excptn_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4cUMpgIi8v4hZXsoHQsjUC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the list of surname with common surname prefixes like \"Mc\" or \"Mac\".",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.247Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0Bb1KD6WuuDbvQtAZNhXgd",
+    "name" : "currency_symbol_from_code_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0Bb1KD6WuuDbvQtAZNhXgd"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of currency symbols for the respective currency.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.326Z",
+  "objectRefs" : [ ]
+}

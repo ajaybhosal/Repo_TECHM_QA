@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3wXfJ1MLIICc7jGeG33cMl",
+    "name" : "colors_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3wXfJ1MLIICc7jGeG33cMl"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of color names and their alternatives.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.422Z",
+  "objectRefs" : [ ]
+}

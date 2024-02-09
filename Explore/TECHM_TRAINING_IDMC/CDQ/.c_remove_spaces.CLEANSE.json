@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5yztjApkaUkiML9DnyVsAC",
+    "name" : "c_remove_spaces",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5yztjApkaUkiML9DnyVsAC"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all the spaces from an input string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.384Z",
+  "objectRefs" : [ ]
+}

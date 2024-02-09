@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6aepiwLPkfPcArQR2wf1in",
+    "name" : "months_to_num_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6aepiwLPkfPcArQR2wf1in"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the number of the month in a year. For example, 01 for January, 02 for February.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.224Z",
+  "objectRefs" : [ ]
+}

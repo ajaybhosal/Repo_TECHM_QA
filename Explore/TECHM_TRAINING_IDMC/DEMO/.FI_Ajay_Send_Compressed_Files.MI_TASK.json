@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "2n4JCskJAk9jYwcVwELdWJ",
+    "name" : "FI_Ajay_Send_Compressed_Files",
+    "type" : "MI_TASK",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "10318"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "File Ingestion Task to compress and send the inbound files to outbound folder and archive them",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2024-02-09T05:26:24.259Z",
+  "objectRefs" : [ {
+    "id" : "25g1oyll4oohE2dvTOcbUT",
+    "name" : "FL_Ajay_Outlets_Inbound",
+    "type" : "MI_FILE_LISTENER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "10182"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "6XwXlCoJ56MkyHR1FyLIMO",
+    "name" : "DEV-WIN-AGENT",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

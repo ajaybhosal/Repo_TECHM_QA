@@ -1,0 +1,94 @@
+{
+  "objectInfo" : {
+    "id" : "8JfEoAtlJenla6ttLPHNMZ",
+    "name" : "mplt_Email_Parse_and_Validate",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000002I"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses an email from a string of texts, provides the elements of mailbox, domain and sub-domain, and validates if the structure and domain are valid. It does not check if the email is an activated address.\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.254Z",
+  "objectRefs" : [ {
+    "id" : "1Of4XmT8LaxdXAg2oBf4WI",
+    "name" : "mplt_Email_Parse_Into_Mailbox_Domain",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000002C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses an email into its constituent elements of mailbox, domain and sub-domain. For example, info@informatica.com will be parsed into info (mailbox), informatica (sub-domain), and com (domain). The mapplet assumes that the text being entered is a valid email.\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "0AF2jsas8QojwK9vbJn084",
+    "name" : "p_Email_from_Text",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0AF2jsas8QojwK9vbJn084"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses an email address from a text string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "21nbtC89R8wkoBz2rSX7ul",
+    "name" : "mplt_Email_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000026"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapplet validates the email format. It does not check if the email is an activated address. Returns Valid or Invalid.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

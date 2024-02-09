@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "bTS89x9DU6okTxhoOcfH8h",
+    "name" : "Techm_Prefix_Firstname",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bTS89x9DU6okTxhoOcfH8h"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "NamePrefix and Firstname",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.233Z",
+  "objectRefs" : [ ]
+}

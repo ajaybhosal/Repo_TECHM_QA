@@ -1,0 +1,84 @@
+{
+  "objectInfo" : {
+    "id" : "6ZeE9nEJoIShBAuFbC3lkO",
+    "name" : "bs_telephone_EU",
+    "type" : "BSERVICE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA27000000000002"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      }, {
+        "name" : "010TYA2800000000000A",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@GetStatusCodesForMethod"
+      }, {
+        "name" : "010TYA28000000000002",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@SetDefaultCountry"
+      }, {
+        "name" : "010TYA2800000000000B",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@GetStatusCodes"
+      }, {
+        "name" : "010TYA28000000000003",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@RemoveDefaultCountry"
+      }, {
+        "name" : "010TYA2800000000000C",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@GetServiceInfo"
+      }, {
+        "name" : "010TYA28000000000004",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@ValidateNumber"
+      }, {
+        "name" : "010TYA2800000000000D",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@GetRemainingHits"
+      }, {
+        "name" : "010TYA28000000000009",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@GetCountryInfo"
+      }, {
+        "name" : "010TYA28000000000005",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@ValidateNumberBatch"
+      }, {
+        "name" : "010TYA28000000000006",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@ValidateNumberCountryBatch"
+      }, {
+        "name" : "010TYA28000000000007",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@ValidateNumberCountry"
+      }, {
+        "name" : "010TYA28000000000008",
+        "value" : "6ZeE9nEJoIShBAuFbC3lkO@GetAllCountries"
+      } ],
+      "additionalInfo" : {
+        "description" : "Global Phone Validation is a data validation and enrichment service for telephone numbers throughout the world, accessed through an EU based endpoint.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.216Z",
+  "objectRefs" : [ {
+    "id" : "2A3lQPQPl1qjmJo9JIgweu",
+    "name" : "DQ_Phone_WSConsumer_EU_v1.4",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA0B00000000000F"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

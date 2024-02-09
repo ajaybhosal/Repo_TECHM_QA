@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "aOoEdcoMDKejIo26lLxh2A",
+    "name" : "rs_use_dict_to_replace_custom_string",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aOoEdcoMDKejIo26lLxh2A"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Cross-references the input values with entries in a specified dictionary and replaces them with a custom string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.199Z",
+  "objectRefs" : [ {
+    "id" : "0jP68E85WIzjADPIZfiVuX",
+    "name" : "cities_of_world_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0jP68E85WIzjADPIZfiVuX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Captures the cities of the world.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

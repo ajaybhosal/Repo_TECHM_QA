@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7va4W4nTacFbAyIw1rOKGL",
+    "name" : "rs_remove_multiple_spaces",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7va4W4nTacFbAyIw1rOKGL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes multiple character spaces from an input string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.213Z",
+  "objectRefs" : [ ]
+}

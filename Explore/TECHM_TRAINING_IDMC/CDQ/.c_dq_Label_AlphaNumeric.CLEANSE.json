@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "7lsY2BajqWUjRtvOfC1ooA",
+    "name" : "c_dq_Label_AlphaNumeric",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7lsY2BajqWUjRtvOfC1ooA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns labels to alphanumeric values.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.331Z",
+  "objectRefs" : [ {
+    "id" : "5yOCBfYrsd1em3GgpC3iW6",
+    "name" : "character_sets",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5yOCBfYrsd1em3GgpC3iW6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a set of characters (A-Z , a-z , 0-9).",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

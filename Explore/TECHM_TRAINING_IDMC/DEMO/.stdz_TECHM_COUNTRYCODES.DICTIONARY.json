@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9DclornTkk5bOT1kpHG5Ey",
+    "name" : "stdz_TECHM_COUNTRYCODES",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9DclornTkk5bOT1kpHG5Ey"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Standardize country codes to 3-digit country codes",
+        "contentType" : "json",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.277Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2kfR8nvDIxyjV1MoNZWueV",
+    "name" : "c_Titlecase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2kfR8nvDIxyjV1MoNZWueV"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Converts the input text to title case with dictionary-defined exceptions.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.193Z",
+  "objectRefs" : [ ]
+}

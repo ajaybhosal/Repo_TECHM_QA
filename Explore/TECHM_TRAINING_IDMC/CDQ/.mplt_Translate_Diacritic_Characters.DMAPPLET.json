@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "lQ5JwL27ucIkKFojob8KYl",
+    "name" : "mplt_Translate_Diacritic_Characters",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000023"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Translates diacitical characters to regular ascii text characters. For example, it changes an ë to an e (returns tëst as test).\n\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.206Z",
+  "objectRefs" : [ {
+    "id" : "2AQ3Jg00AVBfF5AW3DFX2C",
+    "name" : "c_Replace_Diacritic_Chrs",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2AQ3Jg00AVBfF5AW3DFX2C"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces letters that use diacritic symbols with their English-language counterparts.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

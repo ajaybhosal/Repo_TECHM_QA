@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "fnQfWsVyR80ko1sLLbaVw4",
+    "name" : "mplt_AllTrim",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000016"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Removes all leading and trailing spaces from an input string.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.261Z",
+  "objectRefs" : [ {
+    "id" : "1uR7Sn7LgYxccQmju7Sukb",
+    "name" : "c_TrimData",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1uR7Sn7LgYxccQmju7Sukb"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Trims leading and trailing spaces from input string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7sYjEFz1QSxbSreAPz2yyh",
+    "name" : "c_Replace_Slashes_w_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7sYjEFz1QSxbSreAPz2yyh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces any slash symbol with a character space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.256Z",
+  "objectRefs" : [ ]
+}

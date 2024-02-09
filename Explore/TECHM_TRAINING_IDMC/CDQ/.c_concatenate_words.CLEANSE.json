@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "5X7PYwEByLAhUltPhE3cCF",
+    "name" : "c_concatenate_words",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5X7PYwEByLAhUltPhE3cCF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Concatenates two strings (words) with a space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.273Z",
+  "objectRefs" : [ ]
+}

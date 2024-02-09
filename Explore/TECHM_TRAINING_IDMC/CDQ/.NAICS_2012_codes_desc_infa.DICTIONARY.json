@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "fsrVkyCZgiafurmB4Sx3Ey",
+    "name" : "NAICS_2012_codes_desc_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fsrVkyCZgiafurmB4Sx3Ey"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "The reference table contains North American Industry Classification System (NAICS) codes and descriptions, version 2012.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.186Z",
+  "objectRefs" : [ ]
+}

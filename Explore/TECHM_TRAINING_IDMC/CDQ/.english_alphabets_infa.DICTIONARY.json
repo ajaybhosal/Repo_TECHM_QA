@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4uPT7OA9ZfRfIxr80Q2Kgf",
+    "name" : "english_alphabets_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4uPT7OA9ZfRfIxr80Q2Kgf"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of English letters.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.246Z",
+  "objectRefs" : [ ]
+}

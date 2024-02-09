@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6YfJmqXK4qBl0oNvDjIOQi",
+    "name" : "rs_join_two_inputs_with_dash",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6YfJmqXK4qBl0oNvDjIOQi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merges two input strings into a single output, with a dash (-) as the join character.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.239Z",
+  "objectRefs" : [ ]
+}

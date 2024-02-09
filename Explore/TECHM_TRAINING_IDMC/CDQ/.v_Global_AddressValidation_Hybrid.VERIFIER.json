@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7ltCQj7LWMedYK5d6QgCIL",
+    "name" : "v_Global_AddressValidation_Hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7ltCQj7LWMedYK5d6QgCIL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the deliverability of address records from multiple countries and corrects errors where possible. The asset is configured to read input address fields in a hybrid structure.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.210Z",
+  "objectRefs" : [ ]
+}

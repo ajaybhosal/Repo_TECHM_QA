@@ -1,0 +1,68 @@
+{
+  "objectInfo" : {
+    "id" : "1Of4XmT8LaxdXAg2oBf4WI",
+    "name" : "mplt_Email_Parse_Into_Mailbox_Domain",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000002C"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Parses an email into its constituent elements of mailbox, domain and sub-domain. For example, info@informatica.com will be parsed into info (mailbox), informatica (sub-domain), and com (domain). The mapplet assumes that the text being entered is a valid email.\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.329Z",
+  "objectRefs" : [ {
+    "id" : "lObdaReWasDh0ohhtcO8CN",
+    "name" : "p_top_Level_domain",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lObdaReWasDh0ohhtcO8CN"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses top level domain of an email address.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "aDrmqWuzgMKhyIfABmK0s6",
+    "name" : "p_mailbox_subdomain",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aDrmqWuzgMKhyIfABmK0s6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the first word(sub-domain) of an email address.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

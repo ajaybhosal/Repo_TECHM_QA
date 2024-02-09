@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "0SkRNWbqgBufXzIVlZHdU6",
+    "name" : "mplt_Comparison_Dates",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000006"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Compares two dates in an input of type string and returns four outputs. The outputs represent the difference between the dates in hours, days, months, and years respectively. The output values are exclusive of each other. Do not use them together to represent the difference between the data values.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.425Z",
+  "objectRefs" : [ ]
+}

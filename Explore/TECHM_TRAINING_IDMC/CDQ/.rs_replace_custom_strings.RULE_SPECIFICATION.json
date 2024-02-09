@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "lSHdICAm9Ullf4oQrrpX8f",
+    "name" : "rs_replace_custom_strings",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "lSHdICAm9Ullf4oQrrpX8f"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Finds and replaces input strings that the rule specification logic specifies.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.242Z",
+  "objectRefs" : [ ]
+}

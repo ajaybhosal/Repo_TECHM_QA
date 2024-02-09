@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "gmRzlXz4dk2fuhjbjJpxSH",
+    "name" : "Prs_ParseEmail",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "gmRzlXz4dk2fuhjbjJpxSH"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parse Email",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.422Z",
+  "objectRefs" : [ ]
+}

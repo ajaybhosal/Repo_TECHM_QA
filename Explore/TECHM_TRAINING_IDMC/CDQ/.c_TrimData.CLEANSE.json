@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "1uR7Sn7LgYxccQmju7Sukb",
+    "name" : "c_TrimData",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1uR7Sn7LgYxccQmju7Sukb"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Trims leading and trailing spaces from input string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.217Z",
+  "objectRefs" : [ ]
+}

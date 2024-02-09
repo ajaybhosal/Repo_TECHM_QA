@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "eCSIBWRpT8xggUgqFUcwCd",
+    "name" : "dict_CustStatus",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "eCSIBWRpT8xggUgqFUcwCd"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "json",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.251Z",
+  "objectRefs" : [ ]
+}

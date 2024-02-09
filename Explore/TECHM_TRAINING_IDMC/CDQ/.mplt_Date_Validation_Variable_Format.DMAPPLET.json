@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "9xLiIG4gAU7fTFaWG7rrEC",
+    "name" : "mplt_Date_Validation_Variable_Format",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000005"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Validates an input date string. The input date format variable allows the user to specify the format the input date should be in.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.390Z",
+  "objectRefs" : [ ]
+}

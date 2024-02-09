@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "0mCWTuBxTgviBjxYtbCyqV",
+    "name" : "mplt_Concatenate_Words",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000001A"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Concatenates two strings with a character space as the join character.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.184Z",
+  "objectRefs" : [ {
+    "id" : "5X7PYwEByLAhUltPhE3cCF",
+    "name" : "c_concatenate_words",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5X7PYwEByLAhUltPhE3cCF"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Concatenates two strings (words) with a space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

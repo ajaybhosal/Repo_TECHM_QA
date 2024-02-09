@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4qk0gkSvEo7hWvVIle10ai",
+    "name" : "iso_2chr_country_code_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4qk0gkSvEo7hWvVIle10ai"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the two-character ISO country code and the corresponding country name.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.192Z",
+  "objectRefs" : [ ]
+}

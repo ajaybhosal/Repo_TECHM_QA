@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3XOAYJHCW1Mczeg1bqN4W4",
+    "name" : "dq_av6_status_code_descriptions_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3XOAYJHCW1Mczeg1bqN4W4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains alpha status values that indicate the outcome of the verification operation for an address. Each status value has a corresponding text description.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.206Z",
+  "objectRefs" : [ ]
+}

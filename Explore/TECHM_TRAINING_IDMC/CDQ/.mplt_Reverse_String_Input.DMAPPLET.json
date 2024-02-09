@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "4MkEDIpJdqShS5NYuRfw2Q",
+    "name" : "mplt_Reverse_String_Input",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000N"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Reverses the order of the characters in an input field.\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.328Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "8nGAXFAfRuSi52PsRm9CmU",
+    "name" : "p_control_characters",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8nGAXFAfRuSi52PsRm9CmU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identify and parse control characters from input string",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.217Z",
+  "objectRefs" : [ ]
+}

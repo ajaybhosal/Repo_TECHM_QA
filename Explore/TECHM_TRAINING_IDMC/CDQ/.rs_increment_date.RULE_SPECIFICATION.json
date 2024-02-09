@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "90kBLY1BjwcbxNVcQgwLSA",
+    "name" : "rs_increment_date",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "90kBLY1BjwcbxNVcQgwLSA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Adds a number that you specify to the day, month, or year value in the date.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.378Z",
+  "objectRefs" : [ ]
+}

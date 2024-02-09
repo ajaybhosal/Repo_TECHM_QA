@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "ikA2QbwQPoje9XScQXaE27",
+    "name" : "Dict_ValidNamePrefix",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ikA2QbwQPoje9XScQXaE27"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.377Z",
+  "objectRefs" : [ ]
+}

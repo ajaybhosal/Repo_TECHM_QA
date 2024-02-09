@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3QsZw1Mwiavl0HaYyLnjKU",
+    "name" : "rs_convert_integers_to_date_time",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3QsZw1Mwiavl0HaYyLnjKU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Takes the date input fields and combine them to create a date; year, month, day, hour, minute, second, nanosecond. Minimum input require is year, month, day.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.185Z",
+  "objectRefs" : [ ]
+}

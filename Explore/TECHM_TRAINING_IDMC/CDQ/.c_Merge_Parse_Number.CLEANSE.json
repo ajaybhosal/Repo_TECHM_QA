@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7iYCbQayJE3eR7zYOS4EoU",
+    "name" : "c_Merge_Parse_Number",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7iYCbQayJE3eR7zYOS4EoU"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merge the Columns- Remainder, Unparsed and Overflowed from the parser.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.264Z",
+  "objectRefs" : [ ]
+}

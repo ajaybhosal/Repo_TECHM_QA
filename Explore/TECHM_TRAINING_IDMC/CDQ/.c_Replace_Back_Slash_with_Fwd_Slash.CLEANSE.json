@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "j2FV5s9hDKxisIsW29Wwst",
+    "name" : "c_Replace_Back_Slash_with_Fwd_Slash",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "j2FV5s9hDKxisIsW29Wwst"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replace forward-slash with backward-slash.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.244Z",
+  "objectRefs" : [ ]
+}

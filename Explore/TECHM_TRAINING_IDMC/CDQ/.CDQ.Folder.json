@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "7zkWupi3uGidMAI9VYGWw3",
+    "name" : "CDQ",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.276Z",
+  "objectRefs" : [ ]
+}

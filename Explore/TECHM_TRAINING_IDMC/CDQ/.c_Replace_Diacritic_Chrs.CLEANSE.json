@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "2AQ3Jg00AVBfF5AW3DFX2C",
+    "name" : "c_Replace_Diacritic_Chrs",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2AQ3Jg00AVBfF5AW3DFX2C"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces letters that use diacritic symbols with their English-language counterparts.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.263Z",
+  "objectRefs" : [ {
+    "id" : "45hQoZ0nYIbcvDa2neJ8eE",
+    "name" : "diacritics_translate_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "45hQoZ0nYIbcvDa2neJ8eE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of characters that use diacritics symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

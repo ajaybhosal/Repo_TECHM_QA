@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "45hQoZ0nYIbcvDa2neJ8eE",
+    "name" : "diacritics_translate_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "45hQoZ0nYIbcvDa2neJ8eE"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of characters that use diacritics symbols.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.240Z",
+  "objectRefs" : [ ]
+}

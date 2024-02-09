@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "hfBimvtWLsDgEOR8bsDxWh",
+    "name" : "c_Remove_Apostrophe",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hfBimvtWLsDgEOR8bsDxWh"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all apostrophe characters from the input.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.228Z",
+  "objectRefs" : [ ]
+}

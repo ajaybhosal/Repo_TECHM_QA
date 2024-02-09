@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0WA7oTosSsbiaLbEOF5tqM",
+    "name" : "c_Add_Space_Around_Period",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0WA7oTosSsbiaLbEOF5tqM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Inserts a character space on either side of a period, and removes multiple spaces.\t",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.183Z",
+  "objectRefs" : [ ]
+}

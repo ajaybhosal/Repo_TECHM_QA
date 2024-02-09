@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "2EamgSmjmeikUNAjEvrRGb",
+    "name" : "rs_return_lessor_across_columns",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "2EamgSmjmeikUNAjEvrRGb"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the lessor of two values across two input fields on the same data row.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.237Z",
+  "objectRefs" : [ ]
+}

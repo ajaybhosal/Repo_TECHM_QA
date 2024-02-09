@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7mhndR5uuGolT1Zv041VYv",
+    "name" : "Vrf_VerifyUSAddresses",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7mhndR5uuGolT1Zv041VYv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Verify US Addresses",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.237Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "fGCmTIz4BApl3C5VfeW0eq",
+    "name" : "mplt_Global_Address_Validation_Hybrid",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000002G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Validates the deliverability of address records from multiple countries. The mapplet corrects errors where possible. Use the rule with input address fields in a hybrid format.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.268Z",
+  "objectRefs" : [ {
+    "id" : "eXceNApOq09br9tx1xnagg",
+    "name" : "mplt_AV6_Assign_DQ_Status_Code_Description",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000022"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Describes the Match Score value that a verifier asset returns for the AV6 engine.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  }, {
+    "id" : "7ltCQj7LWMedYK5d6QgCIL",
+    "name" : "v_Global_AddressValidation_Hybrid",
+    "type" : "VERIFIER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "7ltCQj7LWMedYK5d6QgCIL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validates the deliverability of address records from multiple countries and corrects errors where possible. The asset is configured to read input address fields in a hybrid structure.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

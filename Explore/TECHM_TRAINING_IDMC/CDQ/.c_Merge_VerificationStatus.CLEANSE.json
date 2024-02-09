@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4YRaBb98Qocin3wnFjeHIy",
+    "name" : "c_Merge_VerificationStatus",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4YRaBb98Qocin3wnFjeHIy"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Merging two ports together to create one output port",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.228Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9ouxPNui3AMhn9S5nowoEA",
+    "name" : "religion_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9ouxPNui3AMhn9S5nowoEA"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of religions\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.184Z",
+  "objectRefs" : [ ]
+}

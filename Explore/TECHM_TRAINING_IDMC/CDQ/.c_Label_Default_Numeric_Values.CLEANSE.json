@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "13AxlHfAsp6dqPqbdeBdgJ",
+    "name" : "c_Label_Default_Numeric_Values",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "13AxlHfAsp6dqPqbdeBdgJ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identifies default or sample numeric values such as 0 or 999.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.193Z",
+  "objectRefs" : [ {
+    "id" : "dQMwyUBxSiIgfqw968SyOi",
+    "name" : "numeric_default_values_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "dQMwyUBxSiIgfqw968SyOi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Assigns numeric values.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

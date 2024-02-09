@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "89GtB5SXe4Bi5pWqhPxb8r",
+    "name" : "c_Remove_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "89GtB5SXe4Bi5pWqhPxb8r"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all occurrences of punctuation from the input field.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.209Z",
+  "objectRefs" : [ ]
+}

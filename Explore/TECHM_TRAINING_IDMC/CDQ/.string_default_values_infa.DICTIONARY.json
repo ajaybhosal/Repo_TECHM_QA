@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4EKhmMJnHBIcERKJJY2P2t",
+    "name" : "string_default_values_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4EKhmMJnHBIcERKJJY2P2t"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of sample or default values.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.328Z",
+  "objectRefs" : [ ]
+}

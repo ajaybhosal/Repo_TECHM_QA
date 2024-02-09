@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "iR9wR9w9cOXkz3H2D5li8Z",
+    "name" : "mplt_Replace_Punctuation_with_Space",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000001Y"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Replaces punctuation symbols with a character space.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.198Z",
+  "objectRefs" : [ {
+    "id" : "0LkUKWtD1ggeSrKhzJs3yq",
+    "name" : "c_Replace_Limited_Punctuation_w_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0LkUKWtD1ggeSrKhzJs3yq"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces any forward slash, backslash, exclamation point, period, or underscore character with a character space. Also replaces instances of multiple character spaces with a single space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

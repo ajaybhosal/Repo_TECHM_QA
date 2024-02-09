@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "adMbfjEhtMOjZggX5Way8N",
+    "name" : "c_merge_remaining_text",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "adMbfjEhtMOjZggX5Way8N"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Cleanse merging multi fields to one output field",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.238Z",
+  "objectRefs" : [ ]
+}

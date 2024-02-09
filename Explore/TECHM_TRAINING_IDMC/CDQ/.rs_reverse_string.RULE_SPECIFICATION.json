@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "hrhfT3sX5gsd51Y2x3rTWj",
+    "name" : "rs_reverse_string",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "hrhfT3sX5gsd51Y2x3rTWj"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Returns the characters and data in an input string in reverse order.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.263Z",
+  "objectRefs" : [ ]
+}

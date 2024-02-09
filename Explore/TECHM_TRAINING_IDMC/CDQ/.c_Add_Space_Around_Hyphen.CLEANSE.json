@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0QdTveX7l2AlwHeQvFyxuX",
+    "name" : "c_Add_Space_Around_Hyphen",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0QdTveX7l2AlwHeQvFyxuX"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Inserts a character space on either side of a hyphen, and reduces multiple spaces to a single space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.379Z",
+  "objectRefs" : [ ]
+}

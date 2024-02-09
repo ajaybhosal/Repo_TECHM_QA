@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "7KvI0xCImXCkmhrNUFcWov",
+    "name" : "mplt_Add_Space_Around_Ampersand",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000001P"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Inserts a space on either side of an ampersand, and removes multiple spaces.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.190Z",
+  "objectRefs" : [ {
+    "id" : "64iMQB3NXsYh6LzzSsdVMG",
+    "name" : "c_Add_Space_Around_Ampersand",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "64iMQB3NXsYh6LzzSsdVMG"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Inserts a character space on either side of an ampersand, and reduces multiple spaces to a single space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

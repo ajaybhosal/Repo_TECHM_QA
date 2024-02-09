@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "jWTrHr9uLaEkMHblCEkjyR",
+    "name" : "Rsp_ValidateContactRule",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "jWTrHr9uLaEkMHblCEkjyR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Validate Contact Details including Name,Zip and Phone",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.232Z",
+  "objectRefs" : [ {
+    "id" : "5qC4tzO4bOTkOUFeFEpnAc",
+    "name" : "Techm_Zipcodes",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "5qC4tzO4bOTkOUFeFEpnAc"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "List of USZipcodes",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  } ]
+}

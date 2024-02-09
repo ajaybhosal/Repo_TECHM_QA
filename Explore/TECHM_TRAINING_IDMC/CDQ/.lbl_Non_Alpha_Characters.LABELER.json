@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aYnM0ek8lc1cweyU9gIz8o",
+    "name" : "lbl_Non_Alpha_Characters",
+    "type" : "LABELER",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aYnM0ek8lc1cweyU9gIz8o"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces a number or other non-alphabetic character with  9/S.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.322Z",
+  "objectRefs" : [ ]
+}

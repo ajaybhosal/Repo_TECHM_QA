@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9TsRqjYRj0Ib87i6v5fgiP",
+    "name" : "rs_convert_string_input_to_date_format",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9TsRqjYRj0Ib87i6v5fgiP"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Takes an input string in the mm/dd/yyyy format and converts it to the date/time format.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.247Z",
+  "objectRefs" : [ ]
+}

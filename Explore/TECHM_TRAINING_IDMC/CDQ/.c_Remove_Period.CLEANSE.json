@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "kvvuDMMdAU8j3ZeJzWx9MO",
+    "name" : "c_Remove_Period",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kvvuDMMdAU8j3ZeJzWx9MO"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes a period from a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.196Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "aDrmqWuzgMKhyIfABmK0s6",
+    "name" : "p_mailbox_subdomain",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aDrmqWuzgMKhyIfABmK0s6"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses the first word(sub-domain) of an email address.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.270Z",
+  "objectRefs" : [ ]
+}

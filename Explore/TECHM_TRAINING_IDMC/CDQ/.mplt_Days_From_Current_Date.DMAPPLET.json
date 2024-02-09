@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "aLDiPKTiFCleNctu10GFgj",
+    "name" : "mplt_Days_From_Current_Date",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000F"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Calculates the number of days between an input date and the current date (system date). Sets the expected input type as String.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.227Z",
+  "objectRefs" : [ ]
+}

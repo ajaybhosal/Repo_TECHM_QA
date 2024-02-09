@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "9SHSlbOVLUxkYzysmvscWi",
+    "name" : "c_Remove_Limited_Punctuation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "9SHSlbOVLUxkYzysmvscWi"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes any forward slash, backslash, exclamation point, period, or underscore character from an input string.\t",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.211Z",
+  "objectRefs" : [ ]
+}

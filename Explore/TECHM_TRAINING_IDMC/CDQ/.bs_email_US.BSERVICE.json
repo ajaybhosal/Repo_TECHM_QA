@@ -1,0 +1,72 @@
+{
+  "objectInfo" : {
+    "id" : "2rhZf2CGjFGgfLjOYMQOCC",
+    "name" : "bs_email_US",
+    "type" : "BSERVICE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA27000000000003"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      }, {
+        "name" : "010TYA2800000000000I",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetStatusCodesForMethod"
+      }, {
+        "name" : "010TYA2800000000000J",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetStatusCodes"
+      }, {
+        "name" : "010TYA2800000000000K",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetServiceInfo"
+      }, {
+        "name" : "010TYA2800000000000L",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetRemainingHits"
+      }, {
+        "name" : "010TYA2800000000000E",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@VerifyEmail"
+      }, {
+        "name" : "010TYA2800000000000F",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetDomainInfo"
+      }, {
+        "name" : "010TYA2800000000000G",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetRiskProfiles"
+      }, {
+        "name" : "010TYA2800000000000H",
+        "value" : "2rhZf2CGjFGgfLjOYMQOCC@GetReasonCodes"
+      } ],
+      "additionalInfo" : {
+        "description" : "Uses US based endpoint to access email verification algorithm which identifies valid and non-valid email addresses.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.273Z",
+  "objectRefs" : [ {
+    "id" : "2nnn7KDJ8inesGlmZRUVWY",
+    "name" : "DQ_Email_WSConsumer_US_v1.4",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA0B00000000000G"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

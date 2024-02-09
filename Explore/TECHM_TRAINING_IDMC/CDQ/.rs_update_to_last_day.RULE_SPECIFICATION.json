@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "60LPrNx0JEEkiDUJIrTLUp",
+    "name" : "rs_update_to_last_day",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "60LPrNx0JEEkiDUJIrTLUp"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Updates an input date in the format yyyy-mm-dd to the final day of the month. Returns the date in the format yyyy-mm-dd hh:mm:ss.s.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.195Z",
+  "objectRefs" : [ ]
+}

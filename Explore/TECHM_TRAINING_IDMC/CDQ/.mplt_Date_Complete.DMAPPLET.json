@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "58j7V1cQgyHhebqgVs4Y0S",
+    "name" : "mplt_Date_Complete",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA40000000000027"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks if an input date string matches any user-defined default values. Does not validate the input string as a date.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.184Z",
+  "objectRefs" : [ {
+    "id" : "397uGBkxq2HirEci931aEr",
+    "name" : "c_Label_Default_Date_Patterns",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "397uGBkxq2HirEci931aEr"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Identifies default or sample date values such as 00/00/0000.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/CDQ"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "ctqsXMa24kfbUGyQi8fNEg",
+    "name" : "rs_return_greatest_across_columns",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ctqsXMa24kfbUGyQi8fNEg"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Sorts a list of values in numerical order or alphabetical order and returns the highest value from the list. The values must be the same data type.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.221Z",
+  "objectRefs" : [ ]
+}

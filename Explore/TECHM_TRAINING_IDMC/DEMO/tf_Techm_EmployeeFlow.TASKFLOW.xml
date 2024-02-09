@@ -1,0 +1,626 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>LYtjCtbdsreK8ZA-gt-1340943-2024-02-01T03:41:51.598Z::tf.xml</types1:EntryId>
+      <types1:Name>tf_Techm_EmployeeFlow</types1:Name>
+      <types1:MimeType>application/xml+taskflow</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>Dem_usr_001</types1:CreatedBy>
+      <types1:CreationDate>2024-02-01T03:41:52Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>Dem_usr_001</types1:PublishedBy>
+      <types1:PublicationDate>2024-02-01T03:41:58Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.tf_Techm_EmployeeFlow/tf_Techm_EmployeeFlow.tf.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                   xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                   xmlns:list="urn:activevos:spi:list:functions"
+                   displayName="tf_Techm_EmployeeFlow"
+                   name="tf_Techm_EmployeeFlow"
+                   overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <tempFields>
+               <field description="" name="Data Task 2" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:mtt-Techm-Mapplet</option>
+                  </options>
+               </field>
+               <field description="" name="Data Task 3" type="reference">
+                  <options>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                     <option name="referenceTo">$po:mtt-Techm-Normalizer</option>
+                  </options>
+               </field>
+               <field description="" name="Command Task 1" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:INFA-commandTask</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                  </options>
+               </field>
+               <field description="" name="t_RuntimeEnv" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="t_ScriptPath" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="t_EmailRecipients" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="t_EmailSubject" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="t_EmailBody" type="string">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="t_RunCounter" type="int">
+                  <options>
+                     <option name="required">false</option>
+                  </options>
+               </field>
+               <field description="" name="Call Email Taskflow" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:InternalInfaSubTaskflowField</option>
+                  </options>
+               </field>
+               <field description="" name="Data Task 1" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:mtt-Techm-EmpLoad</option>
+                     <option name="failOnNotRun">false</option>
+                     <option name="failOnFault">false</option>
+                  </options>
+               </field>
+               <field description="" name="File Watch Task 1" type="reference">
+                  <options>
+                     <option name="referenceTo">$po:TECHM-FileListener-8MEnfAahvG3ewMGg9fALim</option>
+                  </options>
+               </field>
+            </tempFields>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
+               <rest>
+                  <allowedUsers>
+                     <user>ajaybhosal_idmcnov23</user>
+                  </allowedUsers>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="lqootdg1" targetId="lqootdg0"/>
+               </start>
+               <container id="lqootdg0" type="parallel">
+                  <title>GoToParallelDTRun</title>
+                  <flow id="lqootdg4">
+                     <assignment id="lqq3bme9">
+                        <title>Assignment 2</title>
+                        <operation source="formula" to="temp.t_RunCounter">
+                           <expression language="XQuery">$temp.t_RunCounter + 1</expression>
+                        </operation>
+                        <link id="lqq3bmea" targetId="lqootdh7"/>
+                     </assignment>
+                     <eventContainer id="lqootdh7">
+                        <service id="lqootdgi">
+                           <title>Data Task 1</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mtt_Techm_EmpLoad</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4OhYBnJXHwLlivO5oChRMa</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">true</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mtt-Techm-EmpLoad">temp.Data Task 1</operation>
+                                 <operation source="constant" to="mtt-Techm-EmpLoad/inout[1]/p_MaxEmpId">200</operation>
+                                 <operation source="constant"
+                                            to="mtt-Techm-EmpLoad/taskProperties[1]/parameterFileName">Techm_Training_Params_New_1.param</operation>
+                                 <operation source="constant" to="mtt-Techm-EmpLoad/input[1]/p_SalLowerLimit">6000</operation>
+                                 <operation source="constant" to="mtt-Techm-EmpLoad/input[1]/p_SalUpperLimit">12000</operation>
+                                 <operation source="constant"
+                                            to="temp.Data Task 1[1]/taskProperties[1]/parameterFileName">Techm_Training_Params_New_1.param</operation>
+                                 <operation source="constant" to="temp.Data Task 1[1]/input[1]/p_SalLowerLimit">6000</operation>
+                                 <operation source="constant" to="temp.Data Task 1[1]/input[1]/p_SalUpperLimit">12000</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.Data Task 1/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.Data Task 1/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.Data Task 1/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.Data Task 1/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.Data Task 1/output/FirstErrorCode">First Error Code</operation>
+                              <operation source="field" to="temp.Data Task 1/inout/p_MaxEmpId">p_MaxEmpId</operation>
+                           </serviceOutput>
+                        </service>
+                        <flow id="lqq3bmbb">
+                           <link id="lqq3bmbc" targetId="lqootdh7" type="containerLink"/>
+                        </flow>
+                        <flow id="lqq3bmbe">
+                           <container id="lqq3bmcm" type="exclusive">
+                              <title>Check Run Count</title>
+                              <flow id="lqq3bmcn">
+                                 <wait id="lqq3bmco">
+                                    <title>Wait 1</title>
+                                    <duration source="formula">
+                                       <function name="duration_expression">
+                                          <arg name="value">20</arg>
+                                          <arg name="scale">S</arg>
+                                          <arg name="businessDays"/>
+                                       </function>
+                                    </duration>
+                                    <link id="lqq3bmcw" targetId="lqq3bmcp"/>
+                                 </wait>
+                                 <jumpTo id="lqq3bmcp">
+                                    <link id="lqq3bmcx" targetId="lqq3bme9"/>
+                                 </jumpTo>
+                              </flow>
+                              <flow id="lqq3bmcq">
+                                 <assignment id="lqq3bmcr">
+                                    <title>Prepare Email Fields</title>
+                                    <operation source="constant" to="temp.t_EmailSubject">Failure in the task {$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Object_Name} </operation>
+                                    <operation source="formula" to="temp.t_EmailBody">
+                                       <expression language="XQuery">let $nl:="&amp;#10;"
+let $emailstring:='Dear Team'||$nl||'Please find below the run summary of the failed task '||$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Object_Name ||$nl||'Start Time: '||$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Start_Time ||$nl||'End Time: '||$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/End_Time ||$nl||'Success Rows: '||$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Success_Target_Rows ||$nl||'Failed Rows: '||$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Failed_Target_Rows ||$nl||'Error Reason: '||$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Error_Message ||$nl||$nl||'Regards,'||$nl||'Ops Team'
+return $emailstring</expression>
+                                    </operation>
+                                    <link id="lqqbf33t" targetId="lqqbf36p"/>
+                                 </assignment>
+                                 <eventContainer id="lqqbf36p">
+                                    <service id="lqqbf33s">
+                                       <title>File Watch Task 1</title>
+                                       <serviceName>DIExecuteServiceTaskFileWatchTaskImpl</serviceName>
+                                       <serviceGUID/>
+                                       <serviceInput>
+                                          <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                                          <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                                          <parameter name="Task Name" source="constant" updatable="true">TECHM_FileListener</parameter>
+                                          <parameter name="GUID" source="constant" updatable="true">8MEnfAahvG3ewMGg9fALim</parameter>
+                                          <parameter name="Task Type" source="constant" updatable="true">MI_FILE_LISTENER</parameter>
+                                          <parameter name="serviceProviderId" source="constant" updatable="true">filelistener</parameter>
+                                          <parameter name="serviceProviderContextPath"
+                                                     source="constant"
+                                                     updatable="true">filelistener/</parameter>
+                                          <parameter name="taskField" source="nested">
+                                             <operation source="field" to="TECHM-FileListener-8MEnfAahvG3ewMGg9fALim">temp.File Watch Task 1</operation>
+                                             <operation source="constant"
+                                                        to="TECHM-FileListener-8MEnfAahvG3ewMGg9fALim/input[1]/timeOut">5</operation>
+                                          </parameter>
+                                       </serviceInput>
+                                       <serviceOutput>
+                                          <operation source="field" to="temp.File Watch Task 1/output/fileEvents">fileEvents</operation>
+                                       </serviceOutput>
+                                    </service>
+                                    <link id="lqqbf33u" targetId="lqq3bmcs"/>
+                                    <events>
+                                       <catch faultField="temp.File Watch Task 1/fault"
+                                              id="lqqbf36o"
+                                              interrupting="true"
+                                              name="error">
+                                          <suspend/>
+                                       </catch>
+                                    </events>
+                                 </eventContainer>
+                                 <subflow id="lqq3bmcs">
+                                    <title>Call Email Taskflow</title>
+                                    <subflowGUID>8LahwgMV4IFkMHimicWROY</subflowGUID>
+                                    <subflowPath>tf_Techm_SendEmail</subflowPath>
+                                    <runForEach>false</runForEach>
+                                    <input>
+                                       <parameter name="ST_EmailRecipients" source="field" updatable="true">temp.t_EmailRecipients</parameter>
+                                       <parameter name="ST_EmailSubject" source="field" updatable="true">temp.t_EmailSubject</parameter>
+                                       <parameter name="ST_EmailBody" source="field" updatable="true">temp.t_EmailBody</parameter>
+                                    </input>
+                                    <outputDef/>
+                                    <link id="lqq3bmgj" targetId="lqq3bmgi"/>
+                                 </subflow>
+                                 <throw id="lqq3bmgi">
+                                    <title>Throw 1</title>
+                                    <throwInput>
+                                       <parameter name="code" source="field" updatable="true">temp.Data Task 1[1]/fault[1]/code</parameter>
+                                       <parameter name="detail" source="constant" updatable="true">Stopping the flow due to citical error in the task {$temp.DataTask1[1]/fault[1]/detail[1]/errOutputDetail[1]/Object_Name} </parameter>
+                                       <parameter name="reason" source="field" updatable="true">temp.Data Task 1[1]/fault[1]/reason</parameter>
+                                    </throwInput>
+                                 </throw>
+                              </flow>
+                              <link id="lqq3bmcu" targetId="lqq3bmcn" type="containerLink">
+                                 <condition source="formula">
+                                    <function name="less-than">
+                                       <arg name="left">{$temp.t_RunCounter}</arg>
+                                       <arg name="right">{3}</arg>
+                                    </function>
+                                 </condition>
+                              </link>
+                              <link id="lqq3bmcv" targetId="lqq3bmcq" type="containerLink"/>
+                           </container>
+                        </flow>
+                        <link id="lqq3bmba" targetId="lqq3bmbb" type="containerLink"/>
+                        <events>
+                           <catch faultField="temp.Data Task 1/fault"
+                                  id="lqootd7w"
+                                  interrupting="true"
+                                  name="error">
+                              <link id="lqq3bmbd" targetId="lqq3bmbe" type="containerLink"/>
+                           </catch>
+                           <catch faultField="temp.Data Task 1/fault"
+                                  id="lqootd7x"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="lqootdg5" targetId="lqootdg0" type="containerLink"/>
+                  </flow>
+                  <flow id="lqootdg7">
+                     <eventContainer id="lqootdia">
+                        <service id="lqootdhe">
+                           <title>Data Task 2</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mtt_Techm_Mapplet</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">4U49ZAyyKAgcTDqqIbWhaY</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mtt-Techm-Mapplet">temp.Data Task 2</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.Data Task 2/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.Data Task 2/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.Data Task 2/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.Data Task 2/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.Data Task 2/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.Data Task 2/fault"
+                                  id="lqootdi8"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.Data Task 2/fault"
+                                  id="lqootdi9"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="lqootdg8" targetId="lqootdg0" type="containerLink"/>
+                  </flow>
+                  <flow id="lqootdgc">
+                     <eventContainer id="lqoufmam">
+                        <service id="lqootdhl">
+                           <title>Data Task 3</title>
+                           <serviceName>ICSExecuteDataTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Wait for Task to Complete" source="constant" updatable="true">true</parameter>
+                              <parameter name="Max Wait" source="constant" updatable="true">604800</parameter>
+                              <parameter name="Task Name" source="constant" updatable="true">mtt_Techm_Normalizer</parameter>
+                              <parameter name="GUID" source="constant" updatable="true">8Whj1TPdsEFls7KQGO0D0G</parameter>
+                              <parameter name="Task Type" source="constant" updatable="true">MCT</parameter>
+                              <parameter name="Has Inout Parameters" source="constant" updatable="true">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="mtt-Techm-Normalizer">temp.Data Task 3</operation>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.Data Task 3/output/Object_Name">Object Name</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Log_Id">Log Id</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Task_Id">Task Id</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Task_Status">Task Status</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Success_Source_Rows">Success Source Rows</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Failed_Source_Rows">Failed Source Rows</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Success_Target_Rows">Success Target Rows</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Failed_Target_Rows">Failed Target Rows</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.Data Task 3/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.Data Task 3/output/Error_Message">Error Message</operation>
+                              <operation source="field" to="temp.Data Task 3/output/TotalTransErrors">Total Transformation Errors</operation>
+                              <operation source="field" to="temp.Data Task 3/output/FirstErrorCode">First Error Code</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.Data Task 3/fault"
+                                  id="lqoufmak"
+                                  interrupting="true"
+                                  name="error">
+                              <suspend/>
+                           </catch>
+                           <catch faultField="temp.Data Task 3/fault"
+                                  id="lqoufmal"
+                                  interrupting="true"
+                                  name="warning"/>
+                        </events>
+                     </eventContainer>
+                     <link id="lqootdgd" targetId="lqootdg0" type="containerLink"/>
+                  </flow>
+                  <link id="lqootdg3" targetId="lqootdg4" type="containerLink"/>
+                  <link id="lqootdg6" targetId="lqootdg7" type="containerLink"/>
+                  <link id="lqootdgb" targetId="lqootdgc" type="containerLink"/>
+                  <link id="lqoufmhk" targetId="lqoufmhj"/>
+               </container>
+               <container id="lqoufmej" type="exclusive">
+                  <title>Success Or Failure</title>
+                  <flow id="lqoufmen">
+                     <eventContainer id="lqoufmii">
+                        <service id="lqoufmg7">
+                           <title>Command Task 1</title>
+                           <serviceName>ICSExecuteCommandTask</serviceName>
+                           <serviceGUID/>
+                           <serviceInput>
+                              <parameter name="Task Name" source="constant">Command Task 1</parameter>
+                              <parameter name="Wait for Task to Complete" source="constant">true</parameter>
+                              <parameter name="Runtime Environment" source="field" updatable="true">temp.t_RuntimeEnv</parameter>
+                              <parameter name="Max Wait" source="constant">86400</parameter>
+                              <parameter name="Script Name" source="constant"/>
+                              <parameter name="Input Arguments" source="constant"/>
+                              <parameter name="Work Directory" source="constant"/>
+                              <parameter name="RuntimeEnvGUID" source="constant"/>
+                              <parameter name="FailTaskIfAnyScriptFails" source="constant">false</parameter>
+                              <parameter name="taskField" source="nested">
+                                 <operation source="field" to="INFA-commandTask">temp.Command Task 1</operation>
+                                 <operation source="constant" to="INFA-commandTask/input[1]/script-1/name">Script1</operation>
+                                 <operation source="constant" to="INFA-commandTask/input[1]/script-1/scriptName">{$temp.t_ScriptPath}\copytgtfile_TECHM.bat</operation>
+                                 <operation source="constant"
+                                            to="INFA-commandTask/input[1]/script-1/inputArguments"/>
+                                 <operation source="constant" to="INFA-commandTask/input[1]/script-1/workDir"/>
+                              </parameter>
+                           </serviceInput>
+                           <serviceOutput>
+                              <operation source="field" to="temp.Command Task 1/output/Run_Id">Run Id</operation>
+                              <operation source="field" to="temp.Command Task 1/output/Start_Time">Start Time</operation>
+                              <operation source="field" to="temp.Command Task 1/output/End_Time">End Time</operation>
+                              <operation source="field" to="temp.Command Task 1/output/Exit_Code">Exit Code</operation>
+                              <operation source="field" to="temp.Command Task 1/output/Execution_Status">Execution Status</operation>
+                              <operation source="field" to="temp.Command Task 1/output/Std_Error">Std Error</operation>
+                           </serviceOutput>
+                        </service>
+                        <events>
+                           <catch faultField="temp.Command Task 1/fault"
+                                  id="lqoufmih"
+                                  interrupting="true"
+                                  name="error"/>
+                        </events>
+                     </eventContainer>
+                     <link id="lqoufmeo" targetId="lqoufmej" type="containerLink"/>
+                  </flow>
+                  <flow id="lqoufmeq">
+                     <link id="lqoufmer" targetId="lqoufmej" type="containerLink"/>
+                  </flow>
+                  <link id="lqoufmem" targetId="lqoufmen" type="containerLink">
+                     <condition source="formula">
+                        <function name="string-equals">
+                           <arg name="left" source="formula">{let $x:=util:iif($temp.DataTask1[1]/output[1]/Task_Status = 1  and  $temp.DataTask2[1]/output[1]/Task_Status = 1  and  $temp.DataTask3[1]/output[1]/Task_Status = 1, 1, 0)
+return $x}</arg>
+                           <arg name="right">1</arg>
+                        </function>
+                     </condition>
+                  </link>
+                  <link id="lqoufmep" targetId="lqoufmeq" type="containerLink"/>
+                  <link id="lqoufmel" targetId="c"/>
+               </container>
+               <assignment id="lqoufmhj">
+                  <title>Assignment 1</title>
+                  <operation source="constant" to="temp.t_RuntimeEnv">CTS-TRAINING</operation>
+                  <operation source="constant" to="temp.t_ScriptPath">C:\IICSFiles\Source</operation>
+                  <operation source="constant" to="temp.t_EmailRecipients">ajaybhosal@gmail.com; ajaybhosal@scalolearn.com</operation>
+                  <link id="lqoufmhl" targetId="lqoufmej"/>
+               </assignment>
+               <end id="c"/>
+            </flow>
+            <dependencies>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mtt-Techm-Mapplet"
+                              isByCopy="true"
+                              name="mtt-Techm-Mapplet">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mtt-Techm-Normalizer"
+                              isByCopy="true"
+                              name="mtt-Techm-Normalizer">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="INFA-commandTask"
+                              isByCopy="true"
+                              name="INFA-commandTask">
+                  <description>This process object represents a taskflow specific command task output field details.</description>
+                  <tags/>
+                  <detail>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="InternalInfaSubTaskflowField"
+                              isByCopy="true"
+                              name="InternalInfaSubTaskflowField">
+                  <description>This process object represents a subtaskflow type reference field.</description>
+                  <tags/>
+                  <detail/>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="mtt-Techm-EmpLoad"
+                              isByCopy="true"
+                              name="mtt-Techm-EmpLoad">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Input Parameters"
+                            name="input"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="InOut Parameters"
+                            name="inout"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="TaskProperties Parameters"
+                            name="taskProperties"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Max Wait (Seconds)"
+                            name="Max_Wait"
+                            nullable="true"
+                            required="false"
+                            type="int"/>
+                  </detail>
+               </processObject>
+               <processObject xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2011/06/avosHostEnvironment.xsd"
+                              displayName="TECHM-FileListener-8MEnfAahvG3ewMGg9fALim"
+                              isByCopy="true"
+                              name="TECHM-FileListener-8MEnfAahvG3ewMGg9fALim">
+                  <description/>
+                  <tags/>
+                  <detail>
+                     <field label="Fault"
+                            name="fault"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Input Parameters"
+                            name="input"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                     <field label="Output Parameters"
+                            name="output"
+                            nullable="true"
+                            required="false"
+                            type="reference"/>
+                  </detail>
+               </processObject>
+            </dependencies>
+         </taskflow>
+         <ns1:sample-data-sets xmlns:ns1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/sampleData.xsd">
+            <ns1:SampleData>
+               <ns1:Id>8dbcf1ac-927f-4725-8ddf-f2febee77af1</ns1:Id>
+               <ns1:Name>inputname</ns1:Name>
+               <ns1:CreatedBy>Dem_usr_001</ns1:CreatedBy>
+               <ns1:CreationDate>2024-02-01T03:41:52Z</ns1:CreationDate>
+               <ns1:ModifiedBy>Dem_usr_001</ns1:ModifiedBy>
+               <ns1:ModificationDate>2024-02-01T03:41:52Z</ns1:ModificationDate>
+               <ns1:Data format="json">{
+	 "in_MyName": "Ajay"
+}</ns1:Data>
+            </ns1:SampleData>
+         </ns1:sample-data-sets>
+      </types1:Entry>
+      <types1:GUID>2DQOSm0hVDjc3Im05OZYQm</types1:GUID>
+      <types1:DisplayName>tf_Techm_EmployeeFlow</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2024-02-09T05:26:21.307Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>

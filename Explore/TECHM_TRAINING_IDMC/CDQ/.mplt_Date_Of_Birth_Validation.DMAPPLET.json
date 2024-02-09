@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "00hhg4SzPo4hPJOgObrB8B",
+    "name" : "mplt_Date_Of_Birth_Validation",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000000G"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Checks the number of years between the input date and the current date. Returns whether the years represent an adult or a minor.\nReturns Valid for 0 - 120 inclusive and returns Invalid for all other entries.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.244Z",
+  "objectRefs" : [ ]
+}

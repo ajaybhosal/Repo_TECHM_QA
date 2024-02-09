@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "ht1ITMTcyYwcCRATIZ1z0n",
+    "name" : "c_Remove_Quotation",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "ht1ITMTcyYwcCRATIZ1z0n"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes all double quotes from a string of text.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.218Z",
+  "objectRefs" : [ ]
+}

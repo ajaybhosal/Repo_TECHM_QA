@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "3AAba2LMK2GcT5hfM9EIKL",
+    "name" : "quantity_list_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3AAba2LMK2GcT5hfM9EIKL"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of quantities. For example, length, mass, time, area, acceleration.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.375Z",
+  "objectRefs" : [ ]
+}

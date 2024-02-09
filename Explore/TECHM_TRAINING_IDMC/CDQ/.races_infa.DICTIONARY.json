@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "k5ydUkeLqyOgco8trTluQS",
+    "name" : "races_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "k5ydUkeLqyOgco8trTluQS"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the different races of the world.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.228Z",
+  "objectRefs" : [ ]
+}

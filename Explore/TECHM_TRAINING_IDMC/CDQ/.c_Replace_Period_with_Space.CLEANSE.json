@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "6WhyohknnRHg8uEACxMHWB",
+    "name" : "c_Replace_Period_with_Space",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "6WhyohknnRHg8uEACxMHWB"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Replaces a period for a character space.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.257Z",
+  "objectRefs" : [ ]
+}

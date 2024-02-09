@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "4XIiUGQzHcIbu0ntmMgziz",
+    "name" : "household_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4XIiUGQzHcIbu0ntmMgziz"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of household elements.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.194Z",
+  "objectRefs" : [ ]
+}

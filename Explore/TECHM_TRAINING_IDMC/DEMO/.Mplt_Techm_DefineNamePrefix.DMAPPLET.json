@@ -1,0 +1,88 @@
+{
+  "objectInfo" : {
+    "id" : "59TMSCKgCj4cZlajWopTM3",
+    "name" : "Mplt_Techm_DefineNamePrefix",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010TYA4000000000002B"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Define a nameprefix using a derived nameprefix or existing nameprefix",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-02-09T05:26:24.280Z",
+  "objectRefs" : [ {
+    "id" : "41agf5qqtu3bkYTW4EVKyZ",
+    "name" : "Cln_RemoveNoise",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "41agf5qqtu3bkYTW4EVKyZ"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Remove spaces,.*^",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "8nfCHfRqFNZkOetXbSqzmM",
+    "name" : "Cln_UpperCase",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8nfCHfRqFNZkOetXbSqzmM"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Change the text to Uppercase",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  }, {
+    "id" : "iskd1xrhcalctOPM5Vn8QR",
+    "name" : "Cln_DerivePrefixfromFirstName",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iskd1xrhcalctOPM5Vn8QR"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Derive the name prefix from the first name based on a dictionary",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TECHM_TRAINING_IDMC/DEMO"
+  } ]
+}

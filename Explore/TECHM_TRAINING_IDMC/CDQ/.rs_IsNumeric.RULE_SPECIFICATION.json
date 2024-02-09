@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "0bdmlE75qg4da8AQ0bjl6v",
+    "name" : "rs_IsNumeric",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0bdmlE75qg4da8AQ0bjl6v"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Checks if the input value is Numeric or Non-Numeric",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.382Z",
+  "objectRefs" : [ ]
+}

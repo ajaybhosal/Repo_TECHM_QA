@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "bgXCRILUVgObwcAUaf6Tkv",
+    "name" : "suspect_names_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "bgXCRILUVgObwcAUaf6Tkv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains a list of suspect names.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.229Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "eaeoOBML4QSb2RTOY1gZ4Q",
+    "name" : "day_month_infa",
+    "type" : "DICTIONARY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "eaeoOBML4QSb2RTOY1gZ4Q"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Contains the standard DD/MM format for the days and months of the year.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.247Z",
+  "objectRefs" : [ ]
+}

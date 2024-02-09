@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "fQdQtN4VDMzhs42YPQTJOw",
+    "name" : "p_Parse_Number_End_of_line",
+    "type" : "PARSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fQdQtN4VDMzhs42YPQTJOw"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Parses a number that occurs at the end of a string.",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.379Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "iZu922C5IscfUNfqmMmtqv",
+    "name" : "rs_remove_custom_strings",
+    "type" : "RULE_SPECIFICATION",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iZu922C5IscfUNfqmMmtqv"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Removes an input string that the rule specification logic specifies.\n",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-02-09T05:26:24.260Z",
+  "objectRefs" : [ ]
+}
